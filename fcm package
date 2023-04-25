@@ -1,0 +1,8 @@
+>>> from fcm import loadFCS
+>>> data = loadFCS('../sample_data/3FITC_4PE_004.fcs')
+>>> data
+3FITC_4PE_004
+>>> data.channels
+['FSC-H', 'SSC-H', 'FL1-H', 'FL2-H']
+>>> data.shape
+(94569, 4)
